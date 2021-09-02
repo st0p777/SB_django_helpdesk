@@ -23,7 +23,7 @@ SECRET_KEY = config('DJANGO_SECRET_KEY')
 
 INSTALLED_APPS: Tuple[str, ...] = (
     # Your apps go here:
-    'server.apps.main',
+
 
     # Default django apps:
     'django.contrib.auth',
@@ -49,9 +49,9 @@ INSTALLED_APPS: Tuple[str, ...] = (
     'health_check.cache',
     'health_check.storage',
 
-    # 'helpdesk',
-    # 'markdown_deux',  # Required for Knowledgebase item formatting
-    # 'bootstrapform',  # Required for nicer formatting of forms with the default templates
+    'helpdesk',
+    'markdown_deux',  # Required for Knowledgebase item formatting
+    'bootstrapform',  # Required for nicer formatting of forms with the default templates
 )
 
 MIDDLEWARE: Tuple[str, ...] = (
