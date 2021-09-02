@@ -48,8 +48,8 @@ INSTALLED_APPS: Tuple[str, ...] = (
     'health_check.db',
     'health_check.cache',
     'health_check.storage',
-    # django-helpdesk
-    'server.apps.helpdesk',
+
+    # 'helpdesk',
     # 'markdown_deux',  # Required for Knowledgebase item formatting
     # 'bootstrapform',  # Required for nicer formatting of forms with the default templates
 )
